@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tervetuloa Anjantuvan sivuille</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Anjantupa</h1>
+        <p>Rauha, luonto ja täydellinen loma</p>
+    </header>
+    <section class="cabin-info">
+    </section> 
+    
+    <section class="reservation">
+        <h3>Varaa lomasi Anjantuvassa</h3>
+        <label for="checkin">Saapumispäivä:</label>
+        <input type="date" id="checkin" required>
+        
+        <label for="checkout">Lähtöpäivä:</label>
+        <input type="date" id="checkout" required>
+        
+        <button id="checkAvailability">Tarkista saatavuus</button>
+        <div id="availabilityResult"></div>
+        
+        <h4>Yhteystiedot</h4>
+        <form id="reservationForm">
+            <label for="name">Nimi:</label>
+            <input type="text" id="name" placeholder="Nimesi" required>
+
+            <label for="email">Sähköposti:</label>
+            <input type="email" id="email" placeholder="Sähköpostisi" required>
+
+            <button type="submit">Lähetä varaus</button>
+        </form>
+        <div id="reservationResult"></div>
+    </section>
+
+    <script src="script.js">
+
+    </script>
+
+    
+    
+    <a href="https://www.facebook.com/anjantupa" class="facebook-btn" target="_blank">
+        <img src="Facebook-logo.png" alt="Facebook" class="facebook-icon">
+        Seuraa meitä Facebookissa
+    </a>
+
+</div>
+</div>
+</body>
+</html>
